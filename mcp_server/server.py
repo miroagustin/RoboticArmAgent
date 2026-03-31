@@ -19,7 +19,7 @@ from mcp.server.fastmcp import FastMCP
 logger = logging.getLogger(__name__)
 
 MCP_HOST = "127.0.0.1"
-MCP_PORT = 8001
+MCP_PORT = 8010
 
 # ---------------------------------------------------------------------------
 # Simulated workspace state (replaced by hardware SDK state in production)

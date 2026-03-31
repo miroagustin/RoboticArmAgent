@@ -92,7 +92,7 @@ source venv_ai/bin/activate
 python3 mcp_server/server.py
 ```
 
-Expone las tools del brazo robot en `http://localhost:8001/mcp`. El agente carga las tools dinámicamente desde este servidor al arrancar.
+Expone las tools del brazo robot en `http://localhost:8010/mcp`. El agente carga las tools dinámicamente desde este servidor al arrancar.
 
 ### Terminal 4 — Agente
 

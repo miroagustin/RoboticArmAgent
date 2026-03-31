@@ -11,7 +11,7 @@ from reme_memory import ReMeLongTermMemory
 API_BASE = "http://localhost:8000/v1"
 MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct-AWQ"
 REME_WORKING_DIR = ".reme"
-MCP_URL = "http://localhost:8001/mcp"
+MCP_URL = "http://localhost:8010/mcp"
 
 # Comando para iniciar vLLM con soporte de tool calls:
 # python3 -m vllm.entrypoints.openai.api_server \
